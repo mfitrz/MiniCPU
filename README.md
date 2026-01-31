@@ -1,7 +1,6 @@
 # MiniCPU - Simple Assembly Language (SAL) Interpreter
 
 A C++ implementation of a simple assembly language interpreter that simulates a basic CPU with registers, memory, and a complete instruction set.
-
 ---
 
 ## Overview
