@@ -1,0 +1,13 @@
+DEC val1
+DEC val2
+LDI 42
+STR val1
+LDI 99
+STR val2
+LDA val1
+LDB val2
+XCH
+STR val1
+XCH
+STR val2
+HLT

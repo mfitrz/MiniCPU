@@ -1,0 +1,19 @@
+DEC counter
+DEC limit
+DEC one
+LDI 0
+STR counter
+LDI -500
+STR limit
+LDI 1
+STR one
+LDA counter
+LDB one
+ADD
+STR counter
+LDA limit
+LDB counter
+ADD
+JZS 18
+JMP 9
+HLT

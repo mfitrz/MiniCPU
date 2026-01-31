@@ -1,0 +1,8 @@
+DEC x
+LDI 10
+STR x
+JMP 6
+LDI 999
+STR x
+LDA x
+HLT

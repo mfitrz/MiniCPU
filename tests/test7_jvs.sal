@@ -1,0 +1,17 @@
+DEC big1
+DEC big2
+DEC overflow_flag
+LDI 2000000000
+STR big1
+LDI 2000000000
+STR big2
+LDA big1
+LDB big2
+ADD
+JVS 14
+LDI 0
+STR overflow_flag
+HLT
+LDI 1
+STR overflow_flag
+HLT

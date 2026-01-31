@@ -1,0 +1,12 @@
+DEC num1
+DEC num2
+DEC result
+LDI 100
+STR num1
+LDI -100
+STR num2
+LDA num1
+LDB num2
+ADD
+STR result
+HLT

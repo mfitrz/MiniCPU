@@ -1,0 +1,34 @@
+DEC outer_counter
+DEC outer_limit
+DEC inner_counter
+DEC inner_limit
+DEC one
+LDI 0
+STR outer_counter
+LDI -20
+STR outer_limit
+LDI -100
+STR inner_limit
+LDI 1
+STR one
+LDI 0
+STR inner_counter
+LDA inner_counter
+LDB one
+ADD
+STR inner_counter
+LDA inner_limit
+LDB inner_counter
+ADD
+JZS 24
+JMP 15
+LDA outer_counter
+LDB one
+ADD
+STR outer_counter
+LDA outer_limit
+LDB outer_counter
+ADD
+JZS 33
+JMP 13
+HLT

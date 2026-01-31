@@ -1,0 +1,34 @@
+DEC prev
+DEC curr
+DEC next
+DEC counter
+DEC limit
+DEC one
+LDI 0
+STR prev
+LDI 1
+STR curr
+LDI 0
+STR counter
+LDI -30
+STR limit
+LDI 1
+STR one
+LDA prev
+LDB curr
+ADD
+STR next
+LDA curr
+STR prev
+LDA next
+STR curr
+LDA counter
+LDB one
+ADD
+STR counter
+LDA limit
+LDB counter
+ADD
+JZS 33
+JMP 16
+HLT

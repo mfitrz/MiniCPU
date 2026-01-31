@@ -1,0 +1,12 @@
+DEC x
+DEC y
+DEC sum
+LDI 5
+STR x
+LDI 10
+STR y
+LDA x
+LDB y
+ADD
+STR sum
+HLT

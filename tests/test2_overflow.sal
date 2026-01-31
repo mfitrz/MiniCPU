@@ -1,0 +1,12 @@
+DEC large1
+DEC large2
+DEC result
+LDI 2000000000
+STR large1
+LDI 2000000000
+STR large2
+LDA large1
+LDB large2
+ADD
+STR result
+HLT
