@@ -2,6 +2,8 @@
 
 A C++ implementation of a simple assembly language interpreter that simulates a basic CPU with registers, memory, and a complete instruction set.
 
+---
+
 ## Overview
 
 MiniCPU is an educational project that implements a simple assembly language interpreter. It simulates a minimalist CPU architecture with:
