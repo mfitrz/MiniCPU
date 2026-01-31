@@ -312,29 +312,3 @@ MiniCPU/
 **Problem:** Overflow not detected  
 **Solution:** Ensure values actually exceed 2,147,483,647 (2 billion)
 
----
-
-## Educational Value
-
-This project teaches:
-- **Assembly Language**: Low-level programming concepts
-- **Computer Architecture**: CPU components and operation
-- **Object-Oriented Programming**: Inheritance, polymorphism, virtual functions
-- **Memory Management**: Addresses, pointers, allocation
-- **Control Flow**: Jumps, branches, loops, flags
-- **Algorithm Implementation**: Loops, conditionals, arithmetic
-
----
-
-## Future Enhancements
-
-Potential improvements:
-- [ ] Subtraction instruction (SUB)
-- [ ] Multiplication and division
-- [ ] More registers
-- [ ] Stack operations (PUSH, POP)
-- [ ] Procedure calls (CALL, RET)
-- [ ] Larger memory (256, 512 locations)
-- [ ] Comment support in .sal files
-- [ ] Debug mode with breakpoints
-
